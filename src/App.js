@@ -111,7 +111,7 @@ class App extends Component {
             src='https://github.blog/wp-content/uploads/2008/12/forkme_right_darkblue_121621.png?resize=149%2C149'
           />
         </a>
-        <h2>Hacktoberfest Excluded Repositories</h2>
+        <h2>Hacktoberfest Excluded Repositories 2019-2021</h2>
         <div className='main-container'>
           <div className='container'>
             {this.state.issueCards}
@@ -121,7 +121,7 @@ class App extends Component {
         {!this.state.loader && (
           <footer className='footer'>
             {this.hasMore() && (
-              <button className='nextPrev' onClick={this.loadMore}>Load More</button>
+              <button className='nextPrev' onClick={this.loadMore}>Show More</button>
             )}
           </footer>
         )}
